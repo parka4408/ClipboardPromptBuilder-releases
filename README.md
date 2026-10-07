@@ -44,4 +44,10 @@
 
 ReleaseにはZIPのSHA-256ファイルを添付します。ZIP内の `SHA256SUMS.txt` は展開後の各ファイルのハッシュです。ハッシュはファイルの一致を確認するためのもので、電子署名ではありません。
 
-依存ライブラリのライセンスは `THIRD-PARTY-NOTICES.txt` に記載しています。このリポジトリは配布用です。開発用ソースコード・開発履歴は含みません。
+アプリ本体はMITライセンスです。条件は `LICENSE`、依存ライブラリの条件は `THIRD-PARTY-NOTICES.txt` に記載しています。
+
+## ソースからビルド・改修する
+
+Releasesの `ClipboardPromptBuilder-<版>-source.zip` を取得してください。Visual Studio 2022の「.NET デスクトップ開発」と.NET Framework 4.8 Developer Pack、およびNuGetのパッケージ取得環境が必要です。展開後のREADMEにビルド・テスト手順があります。
+
+このリポジトリのGit履歴は配布案内だけを扱います。GitHubが自動表示する「Source code」はアプリのソースZIPではありません。アプリのソースは上記の添付ファイルとして提供し、開発履歴・個人設定・ログは含めません。
